@@ -5,4 +5,4 @@ Ubuntu MAAS Rocky 8 Fix
 
 2. Make a backup of **/usr/lib/python3/dist-packages/curtin/distro.py** in the same directory and overwrite with the updated file in the guthub repo. 
 
-You should be able to successfully boot the machine. Run a diff between the two distro files to see the "rocky" Linux additions. 
+You should be able to successfully boot the machine. Run a diff between the two distro.py files to see the "rocky" Linux additions. 
